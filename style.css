@@ -1,0 +1,261 @@
+* {
+    margin-top: 2;
+    padding: 3px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #171717;
+    color: white;
+}
+
+header {
+    padding: 20px;
+}
+
+header h2 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 25px;
+    width: 600px;
+}
+
+header p {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 15px;
+    width: 600px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    header h2 {
+        font-size: 22px;
+        width: 550px;
+    }
+
+    header p {
+        font-size: 14px;
+        width: 500px;
+    }
+}
+
+ a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+div.iframe-vd{
+    display: flex;
+    justify-content: center;
+}
+
+.button-center {
+    display: flex;
+    justify-content: center;
+    color: black;
+    background: linear-gradient(to left, rgb(155, 155, 39), orange);
+    width: 400px;
+    font-size: 1.5em;
+    padding: 30px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px black;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+#beneficios{
+    font-size: 18px;
+    text-align: center;
+    background-color: transparent;
+    padding: 20px;
+    border: 2px outset orange;
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+span {
+    color: orange;
+    text-shadow: 5px 5px 10px black;
+}
+
+#porque {
+    text-align: center;
+    background-color: transparent;
+    padding: 20px;
+    border: 2px outset orange;
+    width: 400px;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 400px;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+}
+
+img {
+    width: 100%;
+}
+
+.fade {
+    animation: fade 3s ease-in-out infinite;
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+div.comprar-agora {
+    margin: auto;
+    text-decoration: none;
+    width: 800px;
+    padding: 20px;
+    padding-top: 100px;
+    border-radius: 30px;
+    height: 800px;
+    list-style-type: none;
+    text-align: center;
+    background-color: rgb(46, 44, 44);
+}
+
+
+div.comprar-agora h1 {
+    position: relative;
+    top: -50px;
+    background: linear-gradient(to right, yellow, orange);
+     /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+div.comprar-agora h3{
+    position: relative;
+    top: -20px;
+}
+
+.comprar-agora li::before{
+    content: '✅';
+}
+
+div.comprar-agora h2 {
+    font-size: 30px;
+    position: relative;
+    top: -10px;
+}
+
+div.comprar-agora ul > li {
+    font-size: 20px;
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.comprar-agora ul{
+    margin: 50px;
+}
+
+.button-style {
+    color: black;
+    background: linear-gradient(to left, rgb(155, 155, 39), orange);
+    width: 400px;
+    font-size: 1.3em;
+    padding: 30px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px black;
+}
+
+div.comprar-agora img {
+    display: block;
+    width: 350px;
+}
+
+@media screen and (max-width: 700px) {
+    div.comprar-agora {
+        width: 500px;
+        height: auto;
+        padding: 20px;
+    }
+
+    div.comprar-agora h1 {
+        top: 0;
+        font-size: 1.5em;
+    }
+
+    div.comprar-agora h3 {
+        top: 0;
+        font-size: 1em;
+    }
+
+    .comprar-agora li::before {
+        content: '✅';
+        font-size: 1.5em;
+    }
+
+    div.comprar-agora h2 {
+        font-size: 1.2em;
+        top: 0;
+    }
+
+    div.comprar-agora ul > li {
+        font-size: 1em;
+        padding: 5px;
+    }
+
+    .button-style {
+        width: 300px;
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    div.comprar-agora img {
+        width: 100%;
+    }
+}
+
+
+
+
+#chekout  > iframe {
+    margin: auto;
+    position: relative;
+    display: block;
+    align-items: center;
+    background-color: black;
+} 
+
